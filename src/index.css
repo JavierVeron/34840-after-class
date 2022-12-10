@@ -9,6 +9,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.fondoBody {
+  background-color: #f5ebdc;
+}
+
 .fondoNaranja {
   color: white;
   background-color: #ff8533;
