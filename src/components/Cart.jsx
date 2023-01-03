@@ -49,7 +49,7 @@ const Cart = () => {
                                 <td colSpan={2}>&nbsp;</td>
                                 <td className="text-center">Suma Total</td>
                                 <td className="text-center"><b>${sumTotal()}</b></td>
-                                <td>&nbsp;</td>
+                                <td className="text-end"><Link to={"/checkout"} className="btn fondoNaranja" title="Finalizar Compra">Finalizar Compra</Link></td>
                             </tr>
                         </tbody>
                     </table>
